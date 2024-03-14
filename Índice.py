@@ -26,6 +26,7 @@ class Inicio:
         new_employee = Employee(new_name, new_age, new_salary, new_account_number, new_account_type)
         list_of_employees.append(new_employee)
     elif (opcion == 2):
+        #No me jaló :C
         for employee in list_of_employees:
             print(employee)
     elif (opcion == 3):
